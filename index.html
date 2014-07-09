@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+	
+	<!---the below css fixes the # link issue where the nav bar covers up the element that the # link jumps to.--->
+	<style>
+	h2:before { 
+	  display: block; 
+	  content: " "; 
+	  margin-top: -75px; 
+	  height: 75px; 
+	  visibility: hidden; 
+	}
+	<!---.jospacer{
+		height: 50px;
+	}--->
+	</style>
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Mock Outputs</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#Control-Unit-Panel">Control Unit Panel</a></li>
+            <li><a href="#Feature-Matrix">Feature Matrix</a></li>
+            <li><a href="#Metrics-Output">Metrics Output</a></li>
+          </ul>
+		</div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h2 id="Control-Unit-Panel" class="sub-header">Control Unit Panel</h2>
+			  <div class="row">
+				  <div class="col-md-6">
+							<h3>Test Status:</h3>
+				  			<div class="dropdown clearfix"  style="float:left">
+							  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown">
+								Choose Test
+								<span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+								<li role="presentation" class="dropdown-header">Media</li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another Test</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Even another test!</a></li>
+								<li role="presentation" class="divider"></li>
+								<li role="presentation" class="dropdown-header">Nav</li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another Test</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Even another test!</a></li>
+								<li role="presentation" class="divider"></li>
+								<li role="presentation" class="dropdown-header">Tuner</li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another Test</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Even another test!</a></li>
+							  </ul>
+							</div>
+							<button type="button" class="btn btn-success";  style="float:none;margin-left:15px;">Queue for Testing!</button>
+							<p>
+							Some hen ouch yet brave grievously outside thus aboard much sniffed by goodness saluted together adroitly this reserved and suitably regardless ouch.
+
+Much and icily some opposite amongst squirrel oh easy visual raptly unblushing while this saddled less stood reindeer far fractious less abrasively much yikes because less.
+							</p>
+				  </div>
+				  <div class="col-md-6">
+								<h3>Bench Status:</h3>
+								<div class="dropdown clearfix" style="float:left">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown">
+									Choose Bench
+									<span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_0</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_1</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_2</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_3</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_4</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_5</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_6</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_7</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_8</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_9</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">APTestBench_10</a></li>
+								  </ul>
+								</div>
+								<button type="button" class="btn btn-danger" style="float:none;margin-left:15px;">Stop Testing!</button>
+								<p>
+								Some hen ouch yet brave grievously outside thus aboard much sniffed by goodness saluted together adroitly this reserved and suitably regardless ouch.
+
+Much and icily some opposite amongst squirrel oh easy visual raptly unblushing while this saddled less stood reindeer far fractious less abrasively much yikes because less.
+								</p>
+								
+				  </div>
+			  </div>
+
+
+		  <h2 id="Feature-Matrix" class="sub-header">Feature Matrix</h2>
+		    <div class="panel panel-default">
+			  <div class="panel-body">			    
+				<img src="img/featurematrix.png" alt="...">
+			</div>
+		  </div>
+		  <h2 id="Metrics-Output" class="sub-header">Metrics Output</h2>
+		  <div class="panel panel-default">
+			<div class="panel-body">
+			    
+				<img id="Metric_img" src="img/othergraph.png" alt="...">
+				<h3 id="Metric_heading">CPU over time</h3>
+				<p id="Metric_paragraph">Plots the CPU over time for each process.</p>
+				<div class="btn-group">
+				  <button type="button" class="btn btn-primary" onclick="$('#Metric_img').attr('src','img/othergraph.png');$('#Metric_heading').text('CPU over time');$('#Metric_paragraph').text('Plots the CPU over time for each process.');">CPU</button>
+				  <button type="button" class="btn btn-success" onclick="$('#Metric_img').attr('src','img/streamgraph.png');$('#Metric_heading').text('Memory over time');$('#Metric_paragraph').text('Plots the Memory over time for each process.');">Memory</button>
+				  <button type="button" class="btn btn-warning" onclick="$('#Metric_img').attr('src','img/metrics.png');$('#Metric_heading').text('KPI Metrics');$('#Metric_paragraph').text('A list of the KPI Metrics.');">KPI Metrics</button>
+				</div>
+				
+			</div>
+		  </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
